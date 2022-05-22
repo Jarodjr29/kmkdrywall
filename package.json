@@ -1,0 +1,22 @@
+{
+  "name": "kmkdrywall",
+  "version": "1.0.0",
+  "description": "Website for KMK Drywall",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jarodjr29/kmkdrywall.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jarodjr29/kmkdrywall/issues"
+  },
+  "homepage": "https://github.com/Jarodjr29/kmkdrywall#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
