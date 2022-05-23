@@ -1,0 +1,15 @@
+#navbar {
+    margin: 10px;
+    width: 75
+}
+
+#navbar li {
+    display: inline-block;
+    float: left;
+    margin-left: 2%;
+}
+
+#divdesc {
+    margin: 1px;
+    
+}
