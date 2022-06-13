@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom"
 class Nav extends Component {
     render(){
         return (
-            <ul className='Nav'>
+            <ul className='nav'>
             <li>
               <NavLink to="/">Home</NavLink>
             </li>
