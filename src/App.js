@@ -3,11 +3,13 @@ import React from "react";
 import Home from "./components/home"
 import About from "./components/about"
 import Quote from "./components/quote"
+import Nav from "./components/nav"
 import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
+  Link,
+  NavLink
 } from "react-router-dom"
 import './App.css';
 
@@ -29,17 +31,7 @@ function App() {
             Learn React
           </a>
         </header>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/quotes">Request A Quote</Link>
-          </li>
-        </ul>
+        <Nav />
         <hr />
         <Routes>
           <Route exact path="/" element={<Home />}/>
